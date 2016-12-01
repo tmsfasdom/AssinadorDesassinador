@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java"/>
+	<classpathentry kind="lib" path="libs/bcprov-ext-jdk15on-155.jar" sourcepath="libs/src_prov.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/AssinadorDesassinador/libs/bcprov-jdk15on-155.zip!/bcprov-jdk15on-155/javadoc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/bcpkix-jdk15on-155.jar" sourcepath="libs/src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/AssinadorDesassinador/libs/bcpkix-jdk15on-155.zip!/bcpkix-jdk15on-155/javadoc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
